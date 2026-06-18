@@ -2,5 +2,30 @@ let name = "hitesh"
 let repo = 50
 
 // console.log(`hello my name is ${name} and my repo count is ${repo}`);
-const gameName = new String("hitesh")
-console.log(gameName);
+const gameName = new String("hite-sh-chudhary")
+console.log(gameName.split('-'));
+
+// console.log(gameName);
+// console.log(gameName[0])
+// console.log(gameName.__proto__)
+
+// console.log(gameName.length);
+// console.log(gameName.toUpperCase());
+// console.log(gameName.charAt(0));
+// console.log(gameName.indexOf('e'));
+
+const newString = gameName.substring(0,4)
+// console.log(newString);
+
+const anotherString = gameName.slice(-8,4)
+// console.log(anotherString);
+
+const newStringOne = "   hitesh     "
+// console.log(newStringOne) 
+// console.log(newStringOne.trim()) 
+
+url = "https://hitesh.com/hti%20dshee"
+
+// console.log(url.replace('%20','-'));
+// console.log(url.includes('hitesh'));
+
